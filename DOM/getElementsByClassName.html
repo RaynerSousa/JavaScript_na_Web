@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome</title>
+</head>
+<body>
+    <p class="destaque">Texto 1</p>
+    <p class="destaque">Texto 2</p>
+    <script>
+        const textos = document.getElementsByClassName("destaque")
+        textos[0].style.color = "blue"
+        textos[1].textContent = "texto 2 foi alterado"
+        textos[1].style.fontSize = "50px"
+        textos[1].style.color = "red"
+    </script>
+    
+</body>
+</html>

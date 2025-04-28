@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const dataHoje = new Date()
+        const diasemana = dataHoje.getDay()
+        // alert(diasemana)
+
+        const operação = 1
+        switch(diasemana){
+            case 0:
+                console.log('hoje é domingo')
+                break
+            case 1:
+                console.log('hoje é segunda')
+                break
+            case 2:
+                console.log('hoje é terça')
+                break
+            case 3:
+                console.log('hoje é quarta')
+                break
+            case 4:
+                console.log('hoje é quinta')
+                break
+            case 5:
+                console.log('hoje é sexta')
+                break
+            case 6:
+                console.log('hoje é Sabado')
+                break
+            default:
+                console.log('erro')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const pets = [
+        //     'cachorro','gato','Hamster'
+        // ]
+        // alert(pets.includes("gato"))
+
+        // alert(pets.indexOf("gato"))
+
+        const alunos = ['João','Juliana','Caio','Ana'];
+        const medias = [10,8,7.5,9];
+
+
+        const lista = [aluno,medias];
+
+        const ExibeNomeENota = function (aluno){
+            if (lista[0] .includes(alunos)){
+                const indexaluno = lista [0].indexOf(aluno)
+                const nomealuno = lista[o][indexaluno]
+                const mediaaluno = lista[1][indexaluno]
+
+
+                return ` Aluno ${nomealuno} | Media ${mediaaluno} `
+                
+            }else{
+                return `estudante não existe`
+            }
+
+        }
+
+        alert(ExibeNomeENota("Ana"))
+
+    </script>
+</body>
+</html>

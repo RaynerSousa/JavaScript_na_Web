@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Função</title>
+</head>
+<body>
+    <script>
+        
+
+        const calculadora = function(n1,n2,operação){
+            switch(operação){
+                case "+":
+                    return n1 + n2 
+                    break;
+                case "-":
+                    return n1 - n2 
+                    break;
+                case "/":
+                    return n1 / n2 
+                    break;
+                case "*":
+                    return n1 * n2 
+                    break;
+                default:
+                    return "ERRO"    
+            }
+        }
+        console.log(calculadora(3, 3, '+'));
+
+
+        const converterFparaC = function (fahrenheit){
+            const grausC = (5/9) * (fahrenheit -32)
+
+            return grausC
+        }
+        alert(converterFparaC(10).toFixed(2))
+
+        const opção = prompt ('Ditige uma senha')
+        alert(opção)
+
+    </script>
+</body>
+</html>
